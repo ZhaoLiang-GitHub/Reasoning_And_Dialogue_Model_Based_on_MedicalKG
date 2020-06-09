@@ -1,4 +1,4 @@
-***Reasoning_And_Dialogue_Model_Based_on_MedicalKG***
+
 # 项目介绍
 
 本项目记录了有关***基于医疗知识图谱的自动问答系统***的相关情况。如果有做相关内容的同学可以邮件和我联系(zhaoliang19960421@outlook.com)
