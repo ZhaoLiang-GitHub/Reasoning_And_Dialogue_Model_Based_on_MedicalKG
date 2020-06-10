@@ -1,0 +1,2106 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#产生 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#产生">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#制定 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#制定">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#慢阻肺级别"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#推荐 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#推荐">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#确诊 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#确诊">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#慢阻肺级别"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#慢阻肺级别 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#慢阻肺级别"/>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaCO2大于50mmHg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaCO2大于50mmHg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaCO2大于70mmHg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaCO2大于70mmHg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaO2在55mmHg到60mmHg之间 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaO2在55mmHg到60mmHg之间">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaO2小于50mmHg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaO2小于50mmHg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaO2小于55mmHg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaO2小于55mmHg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaO2小于60mmHg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaO2小于60mmHg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#SaO2小于60mmHg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#SaO2小于60mmHg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#SaO2小于89percent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#SaO2小于89percent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#pH值小于7.30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#pH值小于7.30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#下肢水肿 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#下肢水肿">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#动脉血气分析检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#脉搏氧饱和度检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#不均匀肺气肿 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#不均匀肺气肿">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#代谢综合征和糖尿病 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#代谢综合征和糖尿病">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#低分子肝素抗凝治疗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#低分子肝素抗凝治疗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#体重下降 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#体重下降">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#使气道引流通畅 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#使气道引流通畅">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#祛痰药"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#免疫调节剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#免疫调节剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#全身不适 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#全身不适">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#兴奋中枢神经系统 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#兴奋中枢神经系统">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#茶碱类药物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#其他肺野可闻及湿哕音 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#其他肺野可闻及湿哕音">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少呼吸肌相关肺炎 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少呼吸肌相关肺炎">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少呼气末肺容积 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少呼气末肺容积">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#噻托溴铵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少急性加重频率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少急性加重频率">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#口服泼尼松"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#静脉注射甲波尼龙"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#布地奈德/福莫特罗联合制剂"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#氟地卡松/沙美特罗联合制剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少肺过度充气 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少肺过度充气">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺减手术"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减轻呼吸困难程度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减轻呼吸困难程度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺大疱切除术"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#剑突下胸骨下角增宽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#剑突下胸骨下角增宽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#剑突下腹上角增宽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#剑突下腹上角增宽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#剑突部心音较清晰响亮 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#剑突部心音较清晰响亮">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心电图检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#慢阻肺级别"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少急性加重频率"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#扩张支气管"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抑制细胞内环腺苷酸降解来减轻炎症"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高生命质量"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高生存率"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸困难程度"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善肺功能"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#松弛支气管平滑肌"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缓解气流受限"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#补充营养"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#动脉血气分析检查 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#动脉血气分析检查">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaCO2大于50mmHg"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaCO2大于70mmHg"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaO2小于55mmHg"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#PaO2小于60mmHg"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#pH值小于7.30"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#双肺呼吸音可减低 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#双肺呼吸音可减低">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#双肺底可闻及湿哕音 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#双肺底可闻及湿哕音">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#发热 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#发热">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#口服泼尼松 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#口服泼尼松">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#右下肺动脉增宽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#右下肺动脉增宽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸变浅 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸变浅">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸困难 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸困难">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸困难时被迫采用前倾坐位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸困难时被迫采用前倾坐位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸衰竭 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸衰竭">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#动脉血气分析检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#脉搏氧饱和度检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸费力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸费力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸频率增快 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼吸频率增快">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼气延长 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#呼气延长">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳嗽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳嗽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳嗽加剧 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳嗽加剧">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳嗽后咳少量黏性痰液 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳嗽后咳少量黏性痰液">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳嗽后清晨痰液较多 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳嗽后清晨痰液较多">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳嗽性晕厥 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳嗽性晕厥">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳痰 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳痰">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳血痰 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#咳血痰">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#喘息加重 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#喘息加重">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#嗜睡 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#嗜睡">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#噻托溴铵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#噻托溴铵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#增加水盐排出 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#增加水盐排出">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#茶碱类药物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#增加深吸气量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#增加深吸气量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#噻托溴铵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#外周肌肉萎缩 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#外周肌肉萎缩">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#失眠 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#失眠">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#广泛的吸气呼气相哮鸣 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#广泛的吸气呼气相哮鸣">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#康复治疗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#康复治疗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#异丙托溴铵气雾剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#异丙托溴铵气雾剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心力衰竭 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心力衰竭">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#动脉血气分析检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#脉搏氧饱和度检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心房颤动 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心房颤动">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心浊音界缩小 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心浊音界缩小">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心电图检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心电图检查 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心电图检查">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#SaO2小于60mmHg"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心脏悬垂狭长 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心脏悬垂狭长">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心音遥远 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心音遥远">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心电图检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#扩张支气管 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#扩张支气管">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#支气管舒张剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抑制细胞内环腺苷酸降解来减轻炎症 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抑制细胞内环腺苷酸降解来减轻炎症">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#磷酸二酯酶-4(PDE-4)抑制剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抑郁 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抑郁">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抗氧化剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抗氧化剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抗生素 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抗生素">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高健康状态 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高健康状态">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺减手术"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高生命质量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高生命质量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#口服泼尼松"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#噻托溴铵"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#康复治疗"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺移植术"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#静脉注射甲波尼龙"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#布地奈德/福莫特罗联合制剂"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#氟地卡松/沙美特罗联合制剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高生存率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高生存率">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#氧疗"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高运动耐力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高运动耐力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#噻托溴铵"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#布地奈德/福莫特罗联合制剂"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#氟地卡松/沙美特罗联合制剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高运动能力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高运动能力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺减手术"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#支气管舒张剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#支气管舒张剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#支气管镜像减容术 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#支气管镜像减容术">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善健康状态 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善健康状态">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#异丙托溴铵气雾剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸困难程度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸困难程度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#口服泼尼松"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#噻托溴铵"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#茶碱类药物"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#静脉注射甲波尼龙"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#布地奈德/福莫特罗联合制剂"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#氟地卡松/沙美特罗联合制剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸肌做功 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸肌做功">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺减手术"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸肌功能 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸肌功能">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#茶碱类药物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善心搏出量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善心搏出量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#茶碱类药物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善活动能力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善活动能力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#康复治疗"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善肺功能 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善肺功能">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#口服泼尼松"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺大疱切除术"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺移植术"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#静脉注射甲波尼龙"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#布地奈德/福莫特罗联合制剂"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#氟地卡松/沙美特罗联合制剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善通气功能 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善通气功能">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#祛痰药"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#整日均有咳嗽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#整日均有咳嗽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#斜角肌参与呼吸运动 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#斜角肌参与呼吸运动">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无明显变化 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无明显变化">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#稳定期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#早晚均有咳嗽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#早晚均有咳嗽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#早晨咳嗽较重 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#早晨咳嗽较重">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有与有害气体活颗粒接触史 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有与有害气体活颗粒接触史">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有长期吸烟史 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有长期吸烟史">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#松弛支气管平滑肌 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#松弛支气管平滑肌">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#支气管舒张剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#慢阻肺级别"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少呼吸肌相关肺炎"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少急性加重频率"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少肺过度充气"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减轻呼吸困难程度"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#扩张支气管"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抑制细胞内环腺苷酸降解来减轻炎症"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高健康状态"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高生命质量"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高生存率"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高运动能力"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸困难程度"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸肌做功"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善活动能力"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善肺功能"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#松弛支气管平滑肌"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗明显高碳酸血症"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗红细胞增多症"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗脓性痰"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗脱水症状"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缓解气流受限"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缓解过度通气（肺总量大于100percent且残气容积占预计值大于150percent）"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#补充体液和电解质"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#补充营养"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决严重的室性心率失常"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决严重的血流动力学不稳定"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决危机生命的低氧血症"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决危机生命的酸碱失衡"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸功增加"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸或心脏骤停"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸暂停"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸肌疲劳"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸酸中毒"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决意识改变"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决持续性气道分泌物排除困难"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决无创通气无效"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决精神远动性躁动"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#遏制呼吸衰竭"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低PaO2百分比"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低呼吸困难程度"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低呼吸频率"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低插管率"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低病死率"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决心率小于50次/分钟"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#横膈膜位置低平 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#横膈膜位置低平">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#气促加重 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#气促加重">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#气喘 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#气喘">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#气短 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#气短">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#氧疗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#氧疗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗明显高碳酸血症 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗明显高碳酸血症">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗红细胞增多症 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗红细胞增多症">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肝素治疗"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#低分子肝素抗凝治疗"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗脓性痰 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗脓性痰">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抗生素"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗脱水症状 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗脱水症状">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#低分子肝素抗凝治疗"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肝素治疗"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#焦虑 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#焦虑">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#疫苗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#疫苗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#疲乏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#疲乏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#痰培养结果 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#痰培养结果">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#痰液颜色和（或）黏度变化 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#痰液颜色和（或）黏度变化">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#痰量增加 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#痰量增加">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#皮肤发绀 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#皮肤发绀">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#动脉血气分析检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#脉搏氧饱和度检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#确定肺大疱的数量和大小 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#确定肺大疱的数量和大小">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#祛痰药 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#祛痰药">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#稳定期 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#稳定期">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#慢阻肺级别"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#使气道引流通畅"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#兴奋中枢神经系统"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少呼气末肺容积"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#减少急性加重频率"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#噻托溴铵"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#增加水盐排出"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#增加深吸气量"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#扩张支气管"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抑制细胞内环腺苷酸降解来减轻炎症"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高生命质量"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#提高运动耐力"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善健康状态"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸困难程度"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善呼吸肌功能"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善心搏出量"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善肺功能"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#改善通气功能"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#松弛支气管平滑肌"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缓解气流受限"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#舒张全身和肺血管"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解除平滑肌痉挛"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低呼吸困难程度"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低慢阻肺严重程度"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低炎症加重频率"/>
+        <制定 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低病死率"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#粘膜发绀 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#粘膜发绀">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#动脉血气分析检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#脉搏氧饱和度检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缓解气流受限 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缓解气流受限">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#支气管舒张剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缓解过度通气（肺总量大于100percent且残气容积占预计值大于150percent） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缓解过度通气（肺总量大于100percent且残气容积占预计值大于150percent）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#支气管镜像减容术"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缓解重度气流受限 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缓解重度气流受限">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#支气管镜像减容术"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缩唇呼吸以增加呼出气量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缩唇呼吸以增加呼出气量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缺血性心脏病 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#缺血性心脏病">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肋骨走向变平 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肋骨走向变平">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肌肉功能障碍 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肌肉功能障碍">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肝素治疗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肝素治疗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肝脏增大 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肝脏增大">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#动脉血气分析检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#脉搏氧饱和度检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺减手术 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺减手术">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#FEV1/FEC在30percent到50percent之间"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#FEV1/FEC大于50percent"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#FEV1/FEC小于30percent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺动脉圆锥膨隆 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺动脉圆锥膨隆">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺动脉高压 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺动脉高压">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺叩诊过度清音 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺叩诊过度清音">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺叶透亮度增高 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺叶透亮度增高">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺大疱切除术 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺大疱切除术">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺大疱形成 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺大疱形成">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺容积增大 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺容积增大">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺癌 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺癌">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺移植术 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺移植术">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺纹理增多 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺纹理增多">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺纹理紊乱 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺纹理紊乱">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺肝界降低 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺肝界降低">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺过度充气 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺过度充气">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺野外周血管纹理纤细稀少 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺野外周血管纹理纤细稀少">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺野透明度增高 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺野透明度增高">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺门血管影扩大 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺门血管影扩大">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺门血管纹理呈残根状 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺门血管纹理呈残根状">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胃肠补充要素饮食 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胃肠补充要素饮食">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸腹矛盾运动 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸腹矛盾运动">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部CT检查 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部CT检查">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#不均匀肺气肿"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#确定肺大疱的数量和大小"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#高分辨率CT辨别小叶中心型或全小叶型肺气肿"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#心脏悬垂狭长"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无明显变化"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#横膈膜位置低平"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肋骨走向变平"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺动脉圆锥膨隆"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺大疱形成"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺纹理增多"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺纹理紊乱"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺过度充气"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺野外周血管纹理纤细稀少"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺野透明度增高"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺门血管纹理呈残根状"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部前后径增大"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部前后径增大 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部前后径增大">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部紧闷 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部紧闷">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部过度膨胀 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部过度膨胀">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸锁乳突肌参加呼吸运动 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸锁乳突肌参加呼吸运动">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#脉搏氧饱和度检查 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#脉搏氧饱和度检查">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#腹部膨凸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#腹部膨凸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#舒张全身和肺血管 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#舒张全身和肺血管">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#茶碱类药物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#茶碱类药物 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#茶碱类药物">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#血红细胞及血细胞比容检查 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#血红细胞及血细胞比容检查">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#血细胞比容大于0.55"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#血细胞比容大于0.55 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#血细胞比容大于0.55">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#稳定期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#补充体液和电解质 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#补充体液和电解质">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#静脉高营养"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#补充营养 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#补充营养">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#静脉高营养"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决严重的室性心率失常 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决严重的室性心率失常">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决严重的血流动力学不稳定 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决严重的血流动力学不稳定">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决严重误吸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决严重误吸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决危机生命的低氧血症 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决危机生命的低氧血症">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决危机生命的酸碱失衡 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决危机生命的酸碱失衡">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸功增加 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸功增加">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸或心脏骤停 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸或心脏骤停">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸暂停 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸暂停">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸肌疲劳 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸肌疲劳">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸酸中毒 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决呼吸酸中毒">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决意识改变 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决意识改变">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决持续性气道分泌物排除困难 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决持续性气道分泌物排除困难">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决无创通气无效 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决无创通气无效">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决精神远动性躁动 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决精神远动性躁动">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解除平滑肌痉挛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解除平滑肌痉挛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#茶碱类药物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#运动力下降 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#运动力下降">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#进行性加重的呼吸困难 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#进行性加重的呼吸困难">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#遏制呼吸衰竭 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#遏制呼吸衰竭">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#间歇性咳嗽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#间歇性咳嗽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低PaO2百分比 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低PaO2百分比">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低呼吸困难程度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低呼吸困难程度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抗氧化剂"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低呼吸频率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低呼吸频率">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低慢阻肺严重程度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低慢阻肺严重程度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#免疫调节剂"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#抗氧化剂"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#疫苗"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低插管率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低插管率">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低炎症加重频率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低炎症加重频率">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#磷酸二酯酶-4(PDE-4)抑制剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低病死率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降低病死率">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#无创通气"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#疫苗"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降钙素原III检查 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降钙素原III检查">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查手段"/>
+        <产生 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#痰培养结果"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#静脉注射甲波尼龙 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#静脉注射甲波尼龙">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#静脉高营养 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#静脉高营养">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#食欲减退 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#食欲减退">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#骨质疏松 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#骨质疏松">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#高分辨率CT辨别小叶中心型或全小叶型肺气肿 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#高分辨率CT辨别小叶中心型或全小叶型肺气肿">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#高血压 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#高血压">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#FEV1/FEC在30percent到50percent之间 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#FEV1/FEC在30percent到50percent之间">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#FEV1/FEC大于50percent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#FEV1/FEC大于50percent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#稳定期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#FEV1/FEC小于30percent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#FEV1/FEC小于30percent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#布地奈德/福莫特罗联合制剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#布地奈德/福莫特罗联合制剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#氟地卡松/沙美特罗联合制剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#氟地卡松/沙美特罗联合制剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#磷酸二酯酶-4(PDE-4)抑制剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#磷酸二酯酶-4(PDE-4)抑制剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#实施手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#脓性痰’ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#脓性痰’">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#临床症状"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#肺功能检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#胸部X线检查"/>
+        <推荐 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#降钙素原III检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决心率小于50次/分钟 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#解决心率小于50次/分钟">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#治疗方案"/>
+        <实施 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#有创通气"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#过度充气(肺总量大于100percent且残气容积占预计值大于150percent) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#过度充气(肺总量大于100percent且残气容积占预计值大于150percent)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#检查结果"/>
+        <确诊 rdf:resource="http://www.semanticweb.org/赵亮/ontologies/2018/11/untitled-ontology-5#极度加重期"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
